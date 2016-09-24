@@ -66,6 +66,7 @@ public class BoxTextView extends TextView {
         super.onDraw(canvas);
     }
 
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()){
