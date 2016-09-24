@@ -59,6 +59,7 @@ public class BoxTextView extends TextView {
             canvas.drawARGB(255, 255, 255, 255);
         }
 
+
         //绘制边框
         canvas.drawRect(0, 0, getWidth(), getHeight(), paint);
 
